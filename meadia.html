@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> meadia</title>
+        <style>
+            .card{
+                height:300px;
+                width:500px;
+                background-color: rgb(141, 17, 17);
+           
+            }
+            .container{
+                background-color: aqua;
+                height:100%;
+                width:100%;
+            }
+            @media screen and (576px< width) and (width <768px){
+            .card{
+                  display:flex;
+                  background-color:blueviolet;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+            }
+        }
+        @media screen and (768px< width ) and (width <992px){
+           
+            .card{
+                display:flex;
+                background-color:deeppink;
+            }
+            .left{
+
+                
+            }
+            .container{
+                     display: flex;  
+                     flex-direction: row;
+                     gap:10px;
+                     height:100%;
+                     width:100%;
+            }           
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="card">
+            <div class="left">
+            <img src=" https://www.shutterstock.com/shutterstock/photos/1911703984/display_1500/stock-photo-blue-naped-parrot-tanygnathus-lucionensis-colorful-parrot-native-to-philippines-green-parrot-1911703984.jpg" alt="parrot" height="100px" width="100px">
+           </div>
+           <div class="right"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae a non vel aspernatur alias molestias fuga blanditiis minus consectetur. Voluptate laudantium fugiat voluptatem itaque quo! Nemo dolor non obcaecati!</p>
+        </div></div>
+        <div class="card">
+            <div class="left">
+            <img src=" https://www.shutterstock.com/shutterstock/photos/1911703984/display_1500/stock-photo-blue-naped-parrot-tanygnathus-lucionensis-colorful-parrot-native-to-philippines-green-parrot-1911703984.jpg" alt="parrot" height="100px" width="100px">
+            </div>
+            <div class="right">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae a non vel aspernatur alias molestias fuga blanditiis minus consectetur. Voluptate laudantium fugiat voluptatem itaque quo! Nemo dolor non obcaecati</p>
+         </div>
+        </div>
+        </div>
+    </body>
+</html>
